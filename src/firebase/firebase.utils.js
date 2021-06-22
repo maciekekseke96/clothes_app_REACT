@@ -36,6 +36,7 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
       );
     }
   }
+  return userRef;
 };
 
 const provider = new firebase.auth.GoogleAuthProvider();
